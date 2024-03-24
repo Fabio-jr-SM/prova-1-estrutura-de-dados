@@ -32,7 +32,7 @@ A aplicação deve implementar os seguintes serviços, disponibilizados em telas
 
 ### Pontuação e Inovação
 
-A pontuação total desta prova é de 10 pontos, sendo 1 ponto atribuído à inovação, que consiste em melhorias na estrutura, no código C e na apresentação que diferenciam dos demais grupos. Algumas sugestões de inovação incluem:
+A pontuação total desta prova é de 10 pontos, sendo 1 ponto atribuído à inovação, que consiste em melhorias na estrutura, no código C e na apresentação que diferenciam dos demais grupos. Algumas Melhorias no codigo:
 
 - Criado uma opção para o usuário preencher automaticamente ou manualmente os carros;
 - Utilizado uma variável de controle para não repetir funções;
