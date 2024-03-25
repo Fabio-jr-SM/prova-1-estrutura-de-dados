@@ -33,7 +33,7 @@ int binarySearch(veiculos_concessionaria *veic, int len, int target);
 int binarySearchPlaca(veiculos_concessionaria *veic, int len, char placa_busca[8]);
 /*****************************************************************************
 
-ALGORITMOS PRINCIPAIS
+FUNÇÕES PRINCIPAIS
 
 *****************************************************************************/
 
@@ -192,7 +192,7 @@ void buscarPlaca(veiculos_concessionaria *veic, int tam, int variavelControle){
 
 /*****************************************************************************
 
-OUTROS ALGORITMOS
+OUTROS FUNÇÕES
 
 *****************************************************************************/
 
@@ -239,7 +239,7 @@ int partition(veiculos_concessionaria *veic, int beg, int end) {
     int i = beg - 1;
 
     for (int j = beg; j < end; j++) {
-        if (veic[j].preco_veiculo >= pivot) {
+        if (veic[j].preco_veiculo <= pivot) {
             i++;
 
             temp = veic[i];
