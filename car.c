@@ -308,7 +308,6 @@ int binarySearchPlaca(veiculos_concessionaria *veic, int len, char placa_busca[8
         
         if(comparison_result == 0)
         {
-            printf("Numeros de etapas de pesquisa: %d \n", step);
             return guess;
         }
         else if(comparison_result > 0) 
